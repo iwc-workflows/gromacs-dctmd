@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-06T14:19:09.194259",
+            "datePublished": "2021-12-20T17:04:47.614081",
             "hasPart": [
                 {
                     "@id": "gromacs-dctmd.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/gromacs-dctmd",
-            "version": "0.1.1"
+            "version": "0.1.2"
         },
         {
             "@id": "#galaxy",
@@ -115,7 +115,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/gromacs-dctmd/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
